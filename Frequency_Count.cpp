@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
-    string s="rajaram prajapat";
+    string s="rajaram";
     map<char,int>m;
     for(auto x:s){
        if(x!=' '){
