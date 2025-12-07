@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 #include<bits/stdc++.h>
 using namespace std;
 int binary(vector<int>&v,int target){
@@ -21,7 +21,10 @@ int main(){
     if(result!=-1) cout<<"fount in index : "<<result;
     else cout<<"not found";
 
-=======
+}
+
+
+
 #include<bits/stdc++.h>
 using namespace std;
 int binary(vector<int>&v,int target){
@@ -37,6 +40,7 @@ int binary(vector<int>&v,int target){
     }
     return -1;
 }
+
 int main(){
     vector<int>v={1,2,3,4,5,6,7};
     int target=6;
@@ -44,5 +48,5 @@ int main(){
     if(result!=-1) cout<<"fount in index : "<<result;
     else cout<<"not found";
 
->>>>>>> 46556e910b4e4bcd63ff9799841b929fc7aae1fb
+
 }
